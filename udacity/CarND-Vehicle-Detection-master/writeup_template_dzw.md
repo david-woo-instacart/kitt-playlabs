@@ -19,6 +19,9 @@ The goals / steps of this project are the following:
 
 ## Histogram of Oriented Gradients (HOG)
 
+Please find the python notebook of my submission here:
+`CarND-Vehicle-Detection-Project-V2`
+
 ### 1\. Explain how (and identify where in your code) you extracted HOG features from the training images.
 
 The code for this step is contained in the second code cell of the IPython notebook.
