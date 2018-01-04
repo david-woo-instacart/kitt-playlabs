@@ -12,13 +12,13 @@ brew install gcc --without-multilib
 git clone --recursive https://github.com/dmlc/xgboost
 #Build repo
 cd xgboost
-$ vi make/config.mk
+vi make/config.mk
 #Open config File and uncomment and change the following lines
 export CC = gcc-5
 export CXX = g++-5
 # Then build repo
 cp make/config.mk .
-$ sudo make -j4 # sudo is important, prevent permission denied issue
+sudo make -j4 # sudo is important, prevent permission denied issue
 
 #Once the above is done, following python package installing here:
 #http://xgboost.readthedocs.io/en/latest/build.html#python-package-installation
